@@ -1,0 +1,14 @@
+apiVersion: v1
+
+kind: Pod
+
+metadata:
+  name: streamlit-Pod
+  labels:
+    app: arielhalifa-streamlit
+
+spec:
+  containers:
+    - name: streamlit-container
+      image: arielhalifa-app
+      port: 8501
