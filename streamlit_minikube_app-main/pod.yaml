@@ -4,6 +4,8 @@ kind: Pod
 
 metadata:
   name: streamlit-Pod
+  labels:
+    app: arielhalifa-app
 
 spec:
   containers:
