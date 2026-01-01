@@ -1,5 +1,22 @@
+# checkout to branch docker
+    git checkout -b docker
+
+
 ### Docker commands ###
 
 # building the image
     docker build arielhalifa-app:v1
 
+# run container
+    docker run -d --name arielhlaifa-container -p 8000:8000
+
+# status
+    docker logs arielhalifa-container
+
+# pushing to docker hub
+    docker push
+
+# checkout to branch yaml
+    git checkout -b yaml
+
+### kubernetes commands ###
