@@ -16,7 +16,21 @@
 # pushing to docker hub
     docker push
 
-# checkout to branch yaml
+# checkout to branch yaml and service
     git checkout -b yaml
+    git checkout -b service
 
 ### kubernetes commands ###
+
+# activate the pod file
+    kubectl apply -f pod.yaml
+
+# activate the service file
+    kubectl apply -f service.yaml
+
+# status check
+    kubectl get pods
+    kubectl get services
+
+# checkout to branch screenshot
+    git checkout -b screenshot
