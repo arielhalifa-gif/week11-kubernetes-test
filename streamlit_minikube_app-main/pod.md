@@ -1,0 +1,2 @@
+the pod is the enviroment that runs the containers and if there is a lot of trafic and the pod cannot hundle it we can run another pod with the same container
+something like thid but the idea is that we can take the image we create and orchastrait it within kubernetes
