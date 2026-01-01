@@ -1,0 +1,5 @@
+### Docker commands ###
+
+# building the image
+    docker build arielhalifa-app:v1
+
