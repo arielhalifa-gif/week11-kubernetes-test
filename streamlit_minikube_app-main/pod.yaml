@@ -5,7 +5,7 @@ kind: Pod
 metadata:
   name: streamlit-Pod
   labels:
-    app: arielhalifa-app
+    app: arielhalifa-streamlit
 
 spec:
   containers:
